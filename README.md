@@ -1,3 +1,3 @@
-# DynaSiam
+# A Two-stage Image Enhancement and Dynamic Feature Aggregation Framework for Gastroscopy Image Segmentation
 
-We will make the experimental code and implementation details publicly available soon!
+If you have any questions, please contact me at 846483478@qq.com
