@@ -11,10 +11,10 @@ from pathlib import Path
 from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
 
-from compare_exp.utils.lr_scheduler import create_lr_scheduler
+from train_utils.lr_scheduler import create_lr_scheduler
 from datasetloader import DriveTrainDataset, DriveTestDataset
 from train_utils.train_and_eval import train_one_epoch, evaluate
-from dynasiam.src.DynaSiam import mmNet
+from src.DynaSiam import mmNet
 from data_transforms import TDC_Enhance
 from comput_mean_std import calculate_mean_and_std
 
