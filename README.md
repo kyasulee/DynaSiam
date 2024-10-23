@@ -6,7 +6,6 @@ Accurate and reliable automatic segmentation of lesion areas in gastroscopy imag
 ## Running the project
 When you have completed the configuration and prepared the desired dataset, you can ```python train.py``` 
 
-
 ## Components of the project
 1. ```train.py``` contained the complete training code for the project, and the image enhancement stage generates the dataset needed for the lesion segmentation stage. The relevant paths need to be configured in args before the training process starts.
 2. ```predict_dynasiam.py``` used to visualize and predict the results of lesion segmentation.
@@ -14,7 +13,5 @@ When you have completed the configuration and prepared the desired dataset, you 
 4. ```data_transformers.py``` contained the complete code for the TDC-Enhance solution used in the image enhancement stage.
 5. ```src/```contained the detailed structure of the DynaSiam network in the lesion segmentation stage.
 6. ```train_utils/``` contained some training details, including the loss function and evaluation metrics calculation.
-
-If you have any questions, please contact me at 846483478@qq.com
 
 
